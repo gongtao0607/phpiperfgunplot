@@ -1,9 +1,9 @@
 set terminal png enhanced font 'Verdana,9'
+set output 'output.png'
 
 set datafile sep ','
-set ylabel 'Bandwidth(Mbps)'
-set xlabel 'Time'
-set output 'output.png'
+set ylabel 'Bandwidth(Mbps)' font 'Verdana, 14'
+set xlabel 'Time(UTC)' font 'Verdana, 14'
 
 set xdata time
 set timefmt "%Y%m%d%H%M%S"
